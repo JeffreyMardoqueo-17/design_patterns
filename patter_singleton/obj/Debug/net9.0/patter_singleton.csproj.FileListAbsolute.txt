@@ -1,0 +1,14 @@
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\bin\Debug\net9.0\patter_singleton.exe
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\bin\Debug\net9.0\patter_singleton.deps.json
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\bin\Debug\net9.0\patter_singleton.runtimeconfig.json
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\bin\Debug\net9.0\patter_singleton.dll
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\bin\Debug\net9.0\patter_singleton.pdb
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.AssemblyInfoInputs.cache
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.AssemblyInfo.cs
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.csproj.CoreCompileInputs.cache
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.dll
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\refint\patter_singleton.dll
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.pdb
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.genruntimeconfig.cache
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\ref\patter_singleton.dll
