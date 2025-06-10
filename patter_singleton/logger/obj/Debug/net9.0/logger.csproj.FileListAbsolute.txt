@@ -1,0 +1,15 @@
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\bin\Debug\net9.0\logger.exe
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\bin\Debug\net9.0\logger.deps.json
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\bin\Debug\net9.0\logger.runtimeconfig.json
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\bin\Debug\net9.0\logger.dll
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\bin\Debug\net9.0\logger.pdb
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.AssemblyInfoInputs.cache
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.AssemblyInfo.cs
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.csproj.CoreCompileInputs.cache
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.sourcelink.json
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.dll
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\refint\logger.dll
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.pdb
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\logger.genruntimeconfig.cache
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\logger\obj\Debug\net9.0\ref\logger.dll

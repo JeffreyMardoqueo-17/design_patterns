@@ -12,3 +12,4 @@ C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\ref
 C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.pdb
 C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.genruntimeconfig.cache
 C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\ref\patter_singleton.dll
+C:\Users\Jeffrey\Documents\design_patterns\patter_singleton\obj\Debug\net9.0\patter_singleton.sourcelink.json

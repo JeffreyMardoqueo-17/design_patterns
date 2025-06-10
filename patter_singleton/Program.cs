@@ -1,100 +1,43 @@
 ﻿using System;
-
-/// <summary>
-/// Representa un contador global implementado usando el patrón Singleton.
-/// 
-/// Este patrón garantiza que solo exista una instancia de la clase en toda la aplicación,
-/// lo cual es útil para manejar recursos compartidos como contadores, loggers o configuraciones.
-/// 
-/// ✔ Problema que resuelve:
-///   - Evita múltiples instancias del contador en diferentes partes del sistema.
-///   - Proporciona un punto de acceso global y seguro para modificar el contador.
-/// 
-/// ✔ Características:
-///   - Constructor privado para evitar instanciación externa.
-///   - Propiedad estática 'Instance' que devuelve la única instancia.
-///   - Uso de 'lock' para asegurar el acceso seguro en entornos multi-hilo.
-/// 
-/// ✔ Ejemplo de uso:
-///   var contador = GlobalCounter.Instance;
-///   contador.Increment();
-///   contador.Show();
-/// 
-/// Este patrón es fundamental para mantener la consistencia de datos y optimizar el uso de recursos.
-/// </summary>
-
 namespace patter_singleton
 {
-    // 🧠 Singleton que representa un contador global
-    public class GlobalCounter
+    public class Singleton
     {
-        // 1. Instancia única
-        private static GlobalCounter ? _instance;
-
-        // 2. Lock para thread safety
+        private static Singleton? _instance;
         private static readonly object _lock = new object();
+        private Singleton() { }
 
-        // 3. Contador
-        public int Count { get; private set; }
-
-        // 4. Constructor privado
-        private GlobalCounter()
+        //metodo
+        public static Singleton GetInstance()
         {
-            Count = 0;
-            Console.WriteLine("Instancia de GlobalCounter creada");
-        }
-
-        // 5. Propiedad pública para acceder a la instancia
-        public static GlobalCounter Instance
-        {
-            get
+            if (_instance == null)
             {
                 lock (_lock)
                 {
                     if (_instance == null)
-                        _instance = new GlobalCounter();
 
-                    return _instance;
+                        _instance = new Singleton();
                 }
             }
-        }
-
-        // 6. Método para incrementar
-        public void Increment()
-        {
-            Count++;
-            Console.WriteLine($"Contador incrementado a: {Count}");
-        }
-
-        // 7. Método para mostrar el valor actual
-        public void Show()
-        {
-            Console.WriteLine($"Valor actual del contador: {Count}");
+            return _instance;
         }
     }
-
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("🧪 Iniciando prueba de patrón Singleton (Contador Global)");
+            // Obtener la instancia del Singleton
+            var instancia1 = Singleton.GetInstance();
+            var instancia2 = Singleton.GetInstance();
 
-            // Obtenemos la instancia única
-            var contador1 = GlobalCounter.Instance;
-            contador1.Increment(); // Contador: 1
-            contador1.Increment(); // Contador: 2
-            contador1.Show();      // Muestra: 2
+            // Probar que ambas variables apuntan a la misma instancia
+            Console.WriteLine("¿instancia1 y instancia2 son el mismo objeto?: " + (instancia1 == instancia2));
 
-            // Obtenemos otra referencia
-            var contador2 = GlobalCounter.Instance;
-            contador2.Increment(); // Contador: 3
+            // Mostrar los hashcodes para comprobar que son iguales
+            Console.WriteLine("Hash de instancia1: " + instancia1.GetHashCode());
+            Console.WriteLine("Hash de instancia2: " + instancia2.GetHashCode());
 
-            // Verificamos que sea la misma instancia
-            Console.WriteLine($"¿contador1 y contador2 son la misma instancia? {object.ReferenceEquals(contador1, contador2)}");
-
-            contador1.Show(); // Muestra: 3
-
-            Console.WriteLine("✅ Prueba finalizada");
+            Console.ReadKey(); // Espera una tecla para cerrar consola
         }
     }
 }
